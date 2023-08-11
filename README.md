@@ -41,5 +41,5 @@ The game's behavior is controlled by several variables and functions defined in 
 ***   **ChatGPT 3.5:**The friendly developer copilot and the interactive developer book that will finally make you feel"I'ts time I read documentation. It helps when you get to see before you read.**2.  **BinG!**:All the javascript and logic was developed by the Bing Chatbot that is built on ChatGPT-4
 3.  **Mozilla developers network:**
 Helped me with the HTML, CSS, colors(learning) and project ideation(I'm now learning to do this before getting into the tech). MDN Got me started with web development
-4. The ascii Art is generated with the help of(https://ascii-generator.site/)
+4. The ascii Art(removed) is generated with the help of(https://ascii-generator.site/)
 5. This documentation was rendered in Markdown with the help of (https://codebeautify.org/).
