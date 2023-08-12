@@ -71,15 +71,16 @@
     text-orientation: mixed;
 
   }
-.buttons{padding: px; 
+.buttons{padding: 10px; 
 	 position :relative;
 
 background-color:F0F8FF;font-size: 1.5em;
 }
 	    .backbutton{
-position: relative;
+position: fixed;
 top: 10%;
 left: 2%;
+background-color:F0F8FF;font-size: 1.5em;		    
 	    }
 		/*.radiobutton{
 			font-size: 1.2em;
@@ -132,7 +133,7 @@ background-color:FE6800;
     <div id="container">
       <h1 style="text-align: center;">Tic-Tac-Toe</h1>
 	  <!--<button id="back" onclick=(href=../docs/games.html)" style="display: block; margin: 10 auto;"><p>	←Back</p></button>-->
-      <button class= buttons backbutton onclick="window.location.href='./index.html'">←🏡</button>
+      <button class= backbutton onclick="window.location.href='./index.html'">←🏡</button>
 
 	  <label>
         <input type="radio" name="difficulty" value="easy" checked> Easy
