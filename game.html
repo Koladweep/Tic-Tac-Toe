@@ -71,12 +71,16 @@
     text-orientation: mixed;
 
   }
-.buttons{padding:10px;
-position :relative;
+.buttons{padding:10px; 
+	 position :relative;
+
+background-color:F0F8FF;font-size: 2em;
+}
+	    .backbutton{
+		    
 bottom :4%;
 left:-13%;
-font-size: 2em;
-}
+	    }
 
 
 
@@ -121,7 +125,7 @@ font-size: 2em;
     <div id="container">
       <h1 style="text-align: center;">Tic-Tac-Toe</h1>
 	  <!--<button id="back" onclick=(href=../docs/games.html)" style="display: block; margin: 10 auto;"><p>	←Back</p></button>-->
-      <button onclick="window.location.href='./index.html'">←🏡</button>
+      <button class= buttons backbutton onclick="window.location.href='./index.html'">←🏡</button>
 
 	  <label>
         <input type="radio" name="difficulty" value="easy" checked> Easy
@@ -132,7 +136,7 @@ font-size: 2em;
       <label>
         <input type="radio" name="difficulty" value="tough"> Tough
       </label>
-		<button id="reset" onclick="resetGame()">Reset Game</button>
+		<button id="reset" class= buttons onclick="resetGame()">Reset Game</button>
       <div id="displaymessages" style="text-align: center;"></div>
       <button id="tossButton" style="display: block; margin: 0 auto;">Toss Coin</button>     
 <div id="result" style="resize: both; border: none; outline: none;"></div>
