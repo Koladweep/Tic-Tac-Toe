@@ -71,16 +71,23 @@
     text-orientation: mixed;
 
   }
-.buttons{padding:10px; 
+.buttons{padding: px; 
 	 position :relative;
 
-background-color:F0F8FF;font-size: 2em;
+background-color:F0F8FF;font-size: 1.5em;
 }
 	    .backbutton{
 		    
 bottom :4%;
 left:-13%;
 	    }
+		.radiobutton{
+			font-size: 1.2em;
+background-color:FE6800;
+
+		}
+	    
+		    
 
 
 
@@ -131,14 +138,14 @@ left:-13%;
         <input type="radio" name="difficulty" value="easy" checked> Easy
       </label>
       <label>
-        <input type="radio" name="difficulty" value="medium"> Medium
+        <input type="radio" class=radiobutton name="difficulty" value="medium"> Medium
       </label>
       <label>
         <input type="radio" name="difficulty" value="tough"> Tough
       </label>
 		<button id="reset" class= buttons onclick="resetGame()">Reset Game</button>
       <div id="displaymessages" style="text-align: center;"></div>
-      <button id="tossButton" style="display: block; margin: 0 auto;">Toss Coin</button>     
+      <button id="tossButton" style="display: block; margin: 0 auto; background-color:F0F8FF;font-size:1.5em; ">Toss 🪙 </button>     
 <div id="result" style="resize: both; border: none; outline: none;"></div>
 
  
@@ -370,7 +377,7 @@ let jumpback = document.getElementById("Back"); // Get the button element by id
 jumpback.addEventListener("click", function() { // Add a click event listener to the button
   window.location.href = "../documents/games.html"; // Go to the games page when clicked
 });
-function addRandomDelay(callback, upper, lower) {
+function addRandomDelay(callback, upper, lower) {//not in use at the moment 
     // Generate a random delay between upper and lower seconds
     var delay = Math.random() * (upper - lower)*1000 + lower*1000;
     // Use setTimeout to call the callback function after the delay
