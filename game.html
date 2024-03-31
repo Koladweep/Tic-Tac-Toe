@@ -55,9 +55,9 @@
         /* Set the width and height of the table to 100% of its parent container */
         width: 64%;
         height: 80%;
-		bottom :0%
-		right: 20%
-		padding: 40% 0 0 64px;
+		  bottom :0%;
+		  right: 20%;
+		  padding: 40% 0 0 64px;
       }
       td {
         border: 3px solid black;
@@ -197,8 +197,8 @@ let tossButton = document.getElementById("tossButton");
 let displaymessagesElement = document.getElementById("displaymessages");
 let resetElement = document.getElementById("reset");
 let currentPlayer = "";
-let playerSymbol = "✖";
-let computerSymbol = "⭕";
+let playerSymbol = "✖"; // will try these in future🌞😎🔆🔅🌝🌜🌛🌛🥮🌙🌕☀️🌞🌤️
+let computerSymbol = "⭕";//🌝
 let gameStarted = false;
 
 boardElement.style.pointerEvents = "auto";
@@ -233,7 +233,7 @@ boardElement.addEventListener("click", playerMove);
 function playerMove(event) {
   if (gameStarted != true) { 
     displaymessagesElement.textContent = `🙂 Not fair! Toss first.`;
-	displayMessage("Toss First!",'red',1000);
+	displayMessage("Toss First!",'red',2000);
     return;
   }
 	displaymessagesElement.textContent="🙂"
@@ -249,7 +249,7 @@ function playerMove(event) {
       resetElement.style.display = "inline-block";
     } else if (checkTie()) {
       displaymessagesElement.textContent = `It's a tie! .🎀`;
-	  displayMessage("It's a tie!🎀",'pink',2000);
+	  displayMessage("It's a tie!🎀",'magenta',4000);
       disableBoard();
 	  let tie=""
       resetElement.style.display = "inline-block";
@@ -326,12 +326,12 @@ function computerMove() {
 
     if (checkWin(currentPlayer)) {
       displaymessagesElement.textContent = `I win!🙂`;
-	  displayMessage('Haribol (a)I win!🙂','gold',2000);
+	  displayMessage('I win!🙂','gold',4000);
       disableBoard();
       resetElement.style.display = "inline-block";
     } else if (checkTie()) {
       displaymessagesElement.textContent = "It's a tie!🎀";
-	  displayMessage("It's a tie! 🎀",'pink',2000);
+	  displayMessage("It's a tie! 🎀",'magenta',4000);
       disableBoard();
       resetElement.style.display = "inline-block";
     } else {
