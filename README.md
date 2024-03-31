@@ -40,5 +40,8 @@ First and foremost expressions of gratitude will always due to my forbearing par
 
 3. **Mozilla developers network:**
 Helped me with the HTML, CSS, colors(learning) and project ideation(I'm now learning to do this before getting into the tech). MDN Got me started with web development
-4. The ascii Art(removed) is generated with the help of(https://ascii-generator.site/)
-5. This documentation was rendered in Markdown with the help of (https://codebeautify.org/).
+
+4. **Github Copilot:** Helped me fix the messy documentation.html file by formatting the code and locating the glitches in nested lists.
+
+5. **This documentation was rendered in Markdown with the help of *(https://codebeautify.org/).***
+6. Last but not the least: A very friendly VSCode extention- **HTML Preview v0.2.5 by George Oliveira.** It really can save time. I wish I had used this earlier while working on project. It could have saved so much time and so much unnecessary forking for features.
