@@ -34,20 +34,21 @@
             text-align: left;
         }
 
-        .back-button {
+        .buttons{ 
             margin-top: 2em;
             font-size: 2em;
             text-align: center;
-        }
+        }/*unused for now*/
 
-        .buttons {
+        #backbutton {
             padding: 10px;
             position: fixed;
             top: 10%;
             right: 2%;
             background-color: F0F8FF;
             font-size: 2em;
-        }
+        }#backbutton:hover {
+    transform: scale(1.1);
     </style>
 </head>
 
@@ -130,7 +131,7 @@
                         <li><b>HTML Preview v0.2.5 by George Oliveira:</b> A really helpful VSCode plugin that could've saved me so much time had I used it earlier. It's a great tool to preview your HTML files in the browser without having to save them first. Remembering the past experience with that kind of stuff while testing this game, I was unwilling to fix this documentation, had I not tried these tools.</li>
                         </li>
                     </ol>
-        <button class='buttons' onclick="window.location.href='./index.html'">🏡→</button>
+        <button id='backbutton' onclick="window.location.href='./index.html'">🏡→</button>
     </div>
 </body>
 
