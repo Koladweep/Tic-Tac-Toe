@@ -142,20 +142,21 @@ background-color:F0F8FF;font-size: 2em;
 </div>
   <body>
 <button class= backbutton onclick="window.location.href='./index.html'">←🏡</button>
-    <h1 style="text-align: center;">Tic-Tac-Toe</h1>
+    <h1 style="text-align: center; color:purple;">Tic-Tac-Toe</h1>
 	<div id="container">
       
 	  <!--<button id="back" onclick=(href=../docs/games.html)" style="display: block; margin: 10 auto;"><p>	←Back</p></button>-->
       
 
 	  <label>
-        <input type="radio" name="difficulty" value="easy" checked> Easy
-      </label>
-      <label>
-        <input type="radio" class=radiobutton name="difficulty" value="medium"> Medium
-      </label>
-      <label>
-        <input type="radio" name="difficulty" value="tough"> Tough
+        <label>
+          <input type="radio" name="difficulty" value="easy" checked ><span style="color: yellowgreen;"> Easy</span>
+        </label>
+        <label>
+          <input type="radio" name="difficulty" value="medium" ><span style="color: yellow;"> Medium</span>
+        </label>
+        <label>
+          <input type="radio" name="difficulty" value="tough" ><span style="color: orangered;">Tough</span>         </label>
       </label>
 		<button id="reset" class= buttons onclick="resetGame()">Reset Game</button>
       <div id="displaymessages" style="text-align: center wrap;">🙂</div>
